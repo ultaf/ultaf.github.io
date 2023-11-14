@@ -2413,7 +2413,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             var text1 = document.getElementById('selectedCurr').innerHTML
             var trimmedAndSplit = text1.trim().split(" ");
             var coin = trimmedAndSplit[trimmedAndSplit.length - 1].toLocaleLowerCase();
-            var statusp = document.getElementById('status')
+            var statusp = document.getElementById('status-1')
             console.log(coin)
             if(coin == "bnb" || coin == "eth" || coin == "usdt" || coin == "usdc") {
                 if (window.ethereum) {
